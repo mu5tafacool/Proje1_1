@@ -13,7 +13,11 @@ public class S extends Malzeme{
         cimento="cimbeton";
         vitesKolu="otomatik";
 
+        Yurtdisi obj1= new Yurtdisi();
+        obj1.setCekici(true);
+        obj1.setPlaka("A 22 33");
 
+        System.out.println(obj1);
     }
 
 }
